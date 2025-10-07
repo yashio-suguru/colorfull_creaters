@@ -1,7 +1,72 @@
+/*-------------リセット構文----------------------------------------------------------- */
 *{
     margin: 0;
     padding: 0;
 }
+/*-------------フォントファイル読み込み----------------------------------------------------------- */
+@font-face {
+    font-family: 'tamanegi_kaisyo';
+    src: url('/font/tamanegi_kaisyo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kouzan';
+    src: url('/font/kouzan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     background-color: #f9f8f4;
+}
+
+.header_nav_section{
+    max-width: 80px;
+    overflow: hidden;
+}
+
+.header_nav_section{
+    position: fixed;
+    top: 10%;
+    left: 6%;
+}
+
+.header_nav_img{
+    width: 100%;
+    height: auto;
+}
+
+.header_nav_div{
+    position: relative;
+    left: 9px;
+    top: -7px;
+}
+
+.header_nav_div_span1{
+    font-size: xx-large;
+    font-family: 'tamanegi_kaisyo';
+    writing-mode: vertical-rl;
+}
+.header_nav_div_span2{
+    font-size: large;
+    font-family: 'tamanegi_kaisyo';
+    writing-mode: vertical-rl;
+}
+
+.div01_section_txt{
+    writing-mode: vertical-rl;
+    position: relative;
+    left: 78%;
+    top: 57px;
+}
+.div01_section_txt > span{
+
+    font-family: 'meiryo UI';
+    font-size: xx-large;
+}
+.div01_section_img01{
+    position: relative;
+    left: 37%;
+    top: 71px;
 }
